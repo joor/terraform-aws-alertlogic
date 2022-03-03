@@ -10,7 +10,7 @@ variable "vpc_id" {
   description = "Specify the VPC ID where the appliance will be deployed in."
 }
 
-variable "ids_subnet_id" {
+variable "ids_subnet_ids" {
   description = "Specify the existing subnet ID(s) where the appliance will be deployed in."
   type        = list(string)
 }
@@ -34,7 +34,8 @@ variable "ids_appliance_number" {
 }
 
 variable "create_ids" {
-  description = "Set value to 1(true) to include IDS coverage for the Professional protection subscription tier, otherwise set to 0(false) if your scope of protection set to Essentials/Scanning only, IDS will not be deployed."
+  description = "Set value to true to include IDS coverage for the Professional protection subscription tier, otherwise set to false if your scope of protection set to Essentials/Scanning only, IDS will not be deployed."
+  type        = bool
 }
 
 // the latest AMI is provided by Alert Logic and should have been previously shared with the AWS account deploying the IDS security appliance
