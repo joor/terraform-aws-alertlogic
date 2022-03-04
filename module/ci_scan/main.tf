@@ -66,7 +66,7 @@ resource "aws_autoscaling_group" "ci_appliance_asg" {
       }
     ]
     content {
-      key                 = tag.key
+      key                 = tag.value["key"]
       value               = tag.value["value"]
       propagate_at_launch = true
     }
