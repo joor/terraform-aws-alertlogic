@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/joor/terraform-aws-alertlogic/compare/v1.0.0...v1.0.1) (2022-03-04)
+
+
+### Bug Fixes
+
+* use key ([4073d49](https://github.com/joor/terraform-aws-alertlogic/commit/4073d49f914e8359177f5dafdf8b80e9d11cefd2))
+
 # 1.0.0 (2022-03-03)
 
 
