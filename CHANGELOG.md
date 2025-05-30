@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/joor/terraform-aws-alertlogic/compare/v1.0.1...v1.1.0) (2025-05-30)
+
+
+### Features
+
+* migrate from circleCI to Jenkinsfile ([337f0b7](https://github.com/joor/terraform-aws-alertlogic/commit/337f0b7811daab3b64c751379918d29abf695685))
+
 ## [1.0.1](https://github.com/joor/terraform-aws-alertlogic/compare/v1.0.0...v1.0.1) (2022-03-04)
 
 
